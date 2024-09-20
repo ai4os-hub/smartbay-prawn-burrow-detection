@@ -55,7 +55,7 @@ libraries:   # required property, uncomment together with relevant items
   # - CatBoost
    - Other
   # - ultralytics
-#data-type:   # optional, uncomment together with relevant items
+data-type:   # optional, uncomment together with relevant items
    - Image
   # - Text
   # - Time Series
