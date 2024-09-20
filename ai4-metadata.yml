@@ -53,8 +53,8 @@ libraries:   # required property, uncomment together with relevant items
   # - XGBoost
   # - LightGBM
   # - CatBoost
-  # - Other
-   - ultralytics
+   - Other
+  # - ultralytics
 #data-type:   # optional, uncomment together with relevant items
    - Image
   # - Text
