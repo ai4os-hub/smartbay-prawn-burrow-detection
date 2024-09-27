@@ -2,8 +2,8 @@ metadata_version: 2.0.0
 title: smartbay-prawn-burrow-detection
 summary: "AI-based Prawn Burrow detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify Prawn Burrows in Irish Prawn (Nephrops norvegicus) Fishery Areas."
 description: |-
-  smartbay_prawn_burrow_detection is an application using the DEEPaaS API.
-  AI-based Prawn Burrow detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify Prawn Burrows in Irish Prawn (Nephrops norvegicus) Fishery Areas.
+  AI-based Prawn Burrow detection and classification algorithm based on YOLOv8.
+  The model has been tuned to detect and classify Prawn Burrows in Irish Prawn (Nephrops norvegicus) Fishery Areas.
 # doi: http://add-some-DOI-url.com
 dates:
   created: "2024-09-03"
