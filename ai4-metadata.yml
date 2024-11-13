@@ -4,6 +4,15 @@ summary: "AI-based Prawn Burrow detection and classification algorithm based on 
 description: |-
   AI-based Prawn Burrow detection and classification algorithm based on YOLOv8.
   The model has been tuned to detect and classify Prawn Burrows in Irish Prawn (Nephrops norvegicus) Fishery Areas.
+  Norway prawns (Nephrops norvegicus), also known as the Dublin Bay prawn, are common around the Irish coast. They are found in distinct sandy/muddy areas where the sediment is suitable for them to construct their burrows. Nephrops spend a great deal of time in their burrows and their emergence from these is related to time of year, light intensity and tidal strength. The Irish Nephrops fishery is extremely valuable with landings recently worth around €55m at first sale, supporting an important Irish fishing industry.
+    
+  Nephrops are managed in Functional Units (FUs). The Marine Institute has conducted [under water television surveys](https://www.marine.ie/site-area/areas-activity/fisheries-ecosystems/nephrops-under-water-tv-surveys) since 2002 to independently estimate abundance, distribution and stock sizes of Nephrops norvegicus.
+  As part of the iMagine project a selection of images from the Underwater TV survey Functional Units were annotated with bounding boxes and labels in YOLOv8 format to train YOLOv8 Object Detection Models.
+  
+  It is intended to use this module to continue to develop YOLOv8 Object Detection Models to assist in Prawn Survey work and the semi automated annotation of prawn burrow imagery.
+
+  <img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/smartbay-prawn-burrow-detection/main/neph_pred_small.png'/>
+  
 # doi: http://add-some-DOI-url.com
 dates:
   created: "2024-09-03"
@@ -13,7 +22,7 @@ links:
   source_code: https://github.com/ai4os-hub/smartbay-prawn-burrow-detection
   docker_image: ai4oshub/smartbay-prawn-burrow-detection
   # documentation: http://add-some-documentation.com
-  # dataset: http://add-some-url-pointing-to-your-dataset.com
+  dataset: https://doi.org/10.5281/zenodo.13987958
   # weights: http://add-some-weights-url.com
   # citation: http://add-some-DOI-url.com
   # base_model: http://add-some-link-to-another-model.com
