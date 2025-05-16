@@ -38,5 +38,5 @@ COPY ./pyproject-child.toml /srv/ai4os-yolov8-torch/pyproject.toml
 RUN cd /srv/ai4os-yolov8-torch && pip install --no-cache -e .
 
 RUN mkdir -p /srv/ai4os-yolov8-torch/models/yolov8_smartbay_prawn_burrow_detection_small/weights && \
-    curl -L https://share.services.ai4os.eu/index.php/s/yq2XgtXyzkkSiyR/download/smartbay-prawn-burrow-detection-em-t18_01.pt \
+    curl -L https://zenodo.org/records/15366263/files/smartbay-prawn-burrow-detection-em-t18_01.pt \
     --output /srv/ai4os-yolov8-torch/models/yolov8_smartbay_prawn_burrow_detection_small/weights/best.pt

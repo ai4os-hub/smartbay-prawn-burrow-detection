@@ -23,7 +23,7 @@ links:
   docker_image: ai4oshub/smartbay-prawn-burrow-detection
   # documentation: http://add-some-documentation.com
   dataset: https://doi.org/10.5281/zenodo.13987958
-  # weights: http://add-some-weights-url.com
+  weights: https://doi.org/10.5281/zenodo.15366262
   # citation: http://add-some-DOI-url.com
   # base_model: http://add-some-link-to-another-model.com
 tags:        # required property, add user-defined tags that you consider relevant
